@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "18775895386",
+    "firebase_url": "https://icitieslxnp.firebaseio.com",
+    "project_id": "icitieslxnp",
+    "storage_bucket": "icitieslxnp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18775895386:android:e8982fad6b42637fd79763",
+        "android_client_info": {
+          "package_name": "com.example.icitieslxnp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "18775895386-urdv81obd6rgsec38geqf7qrclosctvs.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1-54bxGhsOltEjcJ0KPuZQRi3mzL4Cbk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "18775895386-urdv81obd6rgsec38geqf7qrclosctvs.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
