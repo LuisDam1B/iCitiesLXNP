@@ -48,7 +48,8 @@
             android:id="@+id/password_EditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/password_TextView" />
+            android:layout_below="@id/password_TextView"
+            android:inputType="textPassword"/>
 
         <Button
             android:id="@+id/signIn_Button"
