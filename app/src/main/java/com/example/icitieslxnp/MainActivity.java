@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.view.ActionMode;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -66,6 +67,10 @@ public class MainActivity extends AppCompatActivity {
                                 if(!task.isSuccessful()){
                                     Toast.makeText(MainActivity.this,"Authentificated Failed : " + task.getException(),Toast.LENGTH_SHORT).show();
                                 }else {
+
+                                    Intent internalActivityIntent = new Intent(MainActivity.this,InternalActivity.class);
+                                    MainActivity.this.startActivity(internalActivityIntent);
+
                                     Toast.makeText(MainActivity.this,"Autentificacion Correcta!!! usuario: " +
                                             task.getResult().getUser().getEmail().split("@")[0],Toast.LENGTH_SHORT).show();
                                 }
